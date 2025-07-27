@@ -5,10 +5,9 @@
 5. still in page 3 show name / full name from profile document
 - -
 this is the learning lesson I concentrate on
- -
+- -
 after that
 - get public type index from profile document
 - get storage location from public type index
 - check if notepod note there
 - if not, create
-----
