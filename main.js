@@ -1,3 +1,4 @@
+//main script
 import auth from "solid-auth-client";
 
 async function getWebId() {
