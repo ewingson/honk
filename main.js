@@ -1,4 +1,4 @@
-import auth from 'solid-auth-client';
+import auth from "solid-auth-client";
 
 async function getWebId() {
   /* 1. Check if we've already got the user's WebID and access to their Pod: */
@@ -7,11 +7,10 @@ async function getWebId() {
     return session.webId;
   }
 
-function getIdentityProvider() {
-
-return "https://solidweb.me"
-
-}
+  async function getIdentityProvider() {
+    //hardcoded for now
+    return "https://solidweb.me";
+  }
 
   /* 2. User has not logged in; ask for their Identity Provider: */
   // Implement `getIdentityProvider` to get a string with the user's Identity Provider (e.g.
